@@ -23,7 +23,7 @@ export default function Navbar() {
         </div>
 
         {/* Search Bar and Icons */}
-        <div className="flex items-center gap-4 w-2/3 justify-end">
+        <div className="hidden md:flex items-center gap-4 w-2/3 justify-end">
           <div className="flex-grow gap-x-4">
             <SearchBar />
           </div>
